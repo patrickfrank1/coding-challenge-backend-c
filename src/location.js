@@ -8,8 +8,8 @@ const PROVINCES_CA = [
   '', 'Nova Scotia', 'Ontario', 'Prince Edward Island', 'Quebec', 'Saskatchewan', 'Yukon',
   'Northwest Territories', 'Nunavut'
 ];
-const MAX_LEVEN = 2; // maximum allowed levenshtein distance
-const MAX_DIST = 1500; // maximum allowed spatial distance in km
+const MAX_LEVEN = 4; // maximum allowed levenshtein distance
+const MAX_DIST = 2000; // maximum allowed spatial distance in km
 
 const extractDataFromCSV = () => {
   // read data from csv file
